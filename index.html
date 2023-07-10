@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto X-Men - Semana do Zero ao Programador</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./css/estile.css">
+<link rel="stylesheet" href="/css/reset.css">
+<link rel="stylesheet" href="./css/responsive.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <img class="logo" src="./imagens/Logo.jpg" alt="Logo X-Men">
+    </header>
+    <main class="selecao-de-personagens">
+        <section class="personagens">
+            <h1 class="titulo" style="font-family:oxanium">Selecione um Personagem</h1>
+            <ul class="lista-de-personagens"></ul>
+            <li class="personagem selecionado" id="ciclope" data-nome="Ciclope" data-description="O poder mutante de Ciclope permite que ele dispare rajadas de energia óptica devastadoras através de seus olhos">
+                <img src="./imagens/ciclope.png" alt="personagem Ciclope"> 
+            </li>
+            <li class="personagem" id="jean-grey" data-nome="Jean-grey" data-description="Jean Grey é uma mutante de nível Ômega, o que significa que ela possui habilidades telepáticas e telecinéticas extremamente poderosas.">
+                <img src="./imagens/jean-grey.png" alt="personagem Jean-grey"> 
+            </li>
+            <li class="personagem" id="lince-negra" data-nome="Lince-negra" data-description="O principal poder mutante de Lince Negra é a intangibilidade, que lhe permite atravessar objetos sólidos e tornar-se incorpórea.">
+                <img src="./imagens/lince negra.png" alt="personagem Lince-negra"> 
+            </li>
+            <li class="personagem" id="mystique" data-nome="Mystique" data-description="O poder mutante primário de Mystique é sua habilidade de metamorfose. Ela pode alterar sua forma física, mudando sua aparência para imitar qualquer pessoa, seja homem, mulher, jovem ou idoso.">
+                <img src="./imagens/mystique.png" alt="personagem Mystique"> 
+            </li>
+            <li class="personagem" id="tempestade" data-nome="Tempestade" data-description="Tempestade é uma mutante de nível Ômega, o que significa que ela possui habilidades mutantes extremamente poderosas.">
+                <img src="./imagens/tempestade.png" alt="personagem Tempestade"> 
+            </li>
+            <li class="personagem" id="noturno" data-nome="Noturno" data-description="Ele tem a capacidade de teleportar instantaneamente de um local para outro, desaparecendo em uma nuvem de fumaça e re-entrando em outro lugar. Sua habilidade de teleportação é limitada pela sua linha de visão e distância.">
+                <img src="./imagens/noturno.png" alt="personagem Noturno"> 
+            </li>
+            <li class="personagem" id="vampira" data-nome="vampira" data-description=" A habilidade mutante de Vampira é a absorção de poderes e energia vital. Quando ela toca outra pessoa, ela é capaz de absorver temporariamente seus poderes, habilidades, memórias e até mesmo sua força vital.">
+                <img src="./imagens/vampira.png" alt="personagem Vampira"> 
+            </li>
+            <li class="personagem" id="wolverine" data-nome="Wolverine" data-description=" Uma característica distintiva de Wolverine são suas garras retráteis, que são três lâminas afiadas de adamantium que se estendem para fora de cada mão.">
+                <img src="./imagens/wolverine.png" alt="personagem Wolverine"> 
+            </li>
+        </section>
+        <section class="personagens-selecionado">
+            <img class="personagem-grande" src="./imagens/ciclope.png" alt="Personagem Selecionado">
+            <div class="informacoes-personagem">
+                <h2 class="nome-personagem" id="nome-personagem">Ciclope</h2>
+                <p class="descricao-personagem" id="descricao-personagem"> O poder mutante de Ciclope permite que ele dispare rajadas de energia óptica devastadoras através de seus olhos. </p>
+            </div>
+        </section>
+    </main>
+    <script src="./js/java.js"></script>
+</body>
+</html>
